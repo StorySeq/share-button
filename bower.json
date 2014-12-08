@@ -1,0 +1,18 @@
+{
+  "name": "share-button",
+  "version": "0.1.0",
+  "authors": [
+    "Florian Biewald <github@storyseq.com>"
+  ],
+  "description": "Share Button",
+  "main": [
+    "share.js",
+    "share.css"
+  ],
+  "keywords": [
+    "jquery",
+    "javascript",
+    "css"
+  ],
+  "license": "MIT"
+}
