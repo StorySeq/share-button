@@ -152,7 +152,7 @@ Share = (function(_super) {
       protocol: ['http', 'https'].indexOf(window.location.href.split(':')[0]) === -1 ? 'https://' : '//',
       url: window.location.href,
       caption: null,
-      title: (content = document.querySelector('meta[property="og:title"]') || document.querySelector('meta[name="twitter:title"]')) ? content.getAttribute('content') : (content = document.querySelector('title')) ? content.innerText : void 0,
+      // title: (content = document.querySelector('meta[property="og:title"]') || document.querySelector('meta[name="twitter:title"]')) ? content.getAttribute('content') : (content = document.querySelector('title')) ? content.innerText : void 0,
       image: (content = document.querySelector('meta[property="og:image"]') || document.querySelector('meta[name="twitter:image"]')) ? content.getAttribute('content') : void 0,
       description: (content = document.querySelector('meta[property="og:description"]') || document.querySelector('meta[name="twitter:description"]') || document.querySelector('meta[name="description"]')) ? content.getAttribute('content') : '',
       ui: {
