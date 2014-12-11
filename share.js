@@ -204,12 +204,13 @@ Share = (function(_super) {
     this.extend(this.config, opts, true);
     this.set_global_configuration();
     this.normalize_network_configuration();
-    if (this.config.ui.icon_font) {
-      this.inject_icons();
-    }
-    if (this.config.ui.button_font) {
-      this.inject_fonts();
-    }
+    // changed
+    // if (this.config.ui.icon_font) {
+    //   this.inject_icons();
+    // }
+    // if (this.config.ui.button_font) {
+    //   this.inject_fonts();
+    // }
     if (this.config.networks.facebook.enabled && this.config.networks.facebook.load_sdk) {
       this.inject_facebook_sdk();
     }
